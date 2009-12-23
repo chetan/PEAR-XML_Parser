@@ -36,7 +36,7 @@ Furthermore its now possible to split the parser from the handler object, so you
   </maintainer>
   </maintainers>
  <release>
-  <version>1.3.2</version>
+  <version>1.3.3</version>
   <date>2009-01-21</date>
   <license>BSD License</license>
   <state>stable</state>
@@ -326,5 +326,15 @@ XML_Parser_Simple:
 - add an AllTests.php for PHPUnit usage
     </notes>
    </release>
+      <release>
+       <version>1.3.3</version>
+       <date>2009-12-23</date>
+       <license>BSD License</license>
+       <state>stable</state>
+       <notes>- Fixed minor deprecation issues in PHP 5.3
+           - Replaced deprecated eregi with preg_match
+           - "Assigning the return value of new by reference is deprecated"
+       </notes>
+      </release>
  </changelog>
 </package>
